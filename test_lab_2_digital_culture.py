@@ -3,7 +3,7 @@ import calculator
 
 class CalcTest(unittest.TestCase):
     def test_add(self):
-        self.assertEqual(calculator.add(2, 2), 3)
+        self.assertEqual(calculator.add(2, 2), 4)
         self.assertEqual(calculator.add(-2, 2), 0)
         self.assertEqual(calculator.add(100, -1000), -900)
         self.assertEqual(calculator.add(0, 0), 0)
