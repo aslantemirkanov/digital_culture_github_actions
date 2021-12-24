@@ -20,8 +20,3 @@ jobs:
         run: coverage run test_lab_2_digital_culture.py
       - name: Tests report
         run: coverage report
-      - name: Archive file back
-        uses: actions/upload-artifact@master
-        with:
-          name: build
-          path: master
